@@ -1,0 +1,58 @@
+html.fh5co-overflow #hiken-header, html.fh5co-overflow #hiken-main, body.fh5co-overflow #hiken-header, body.fh5co-overflow #hiken-main {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+/* Header Start */
+#header-header {
+  width: 100%;
+  /*padding: 0px 0 20px 0;*/
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  position: fixed;
+  float: left;
+  top: 0;
+  left: 0 !important;
+  right: 0;
+  z-index: 103;
+  background: #ffebb9;
+  -webkit-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+  -ms-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+  -o-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+  box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+}
+#header-header #fh5co-logo a {
+  color: #000;
+}
+#header-header #fh5co-logo a:hover {
+  color: #7b7b7b;
+}
+#header-header #fh5co-menu-wrap .sf-menu a {
+  color: #2e2e2e;
+  border-bottom: none !important;
+}
+#header-header #fh5co-menu-wrap .sf-menu a:hover {
+  color: #28bbf8 !important;
+}
+#header-header #fh5co-menu-wrap .sf-menu li.active > a {
+  color: #28bbf8 !important;
+}
+#header-header #fh5co-menu-wrap > .sf-menu > li > a {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+/* Header End */
+
+#hiken-main {
+	margin-top: 88px;
+	z-index: 102;
+	position: relative;
+	background: #ffffff;
+}
