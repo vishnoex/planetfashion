@@ -15,25 +15,25 @@
 				<span class="fh5co-feature-icon fh5co-circle"><i class="ti-gift"></i></span>
 				<h3 class="text-center fh5co-feature-title h4 text-uppercase">Free HTML5 Template</h3>
 				<p class="text-center fh5co-feature-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat aliquid placeat nobis veritatis neque earum possimus tempora sunt. </p>
-				<p class="text-center"><a href="#" class="btn btn-primary btn-sm">Read more</a></p>
+				<p class="text-center"><a href="detail" class="btn btn-primary btn-sm">Read more</a></p>
 			</div>
 			<div class="col-md-3 col-sm-6 fh5co-feature-item crsl-item">
 				<span class="fh5co-feature-icon fh5co-circle"><i class="ti-mobile"></i></span>
 				<h3 class="text-center fh5co-feature-title h4 text-uppercase">Mobile First</h3>
 				<p class="text-center fh5co-feature-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat aliquid placeat nobis veritatis neque earum possimus tempora sunt.</p>
-				<p class="text-center"><a href="#" class="btn btn-primary btn-sm">Read more</a></p>
+				<p class="text-center"><a href="detail" class="btn btn-primary btn-sm">Read more</a></p>
 			</div>
 			<div class="col-md-3 col-sm-6 fh5co-feature-item crsl-item">
 				<span class="fh5co-feature-icon fh5co-circle"><i class="ti-pie-chart"></i></span>
 				<h3 class="text-center fh5co-feature-title h4 text-uppercase">Analytics</h3>
 				<p class="text-center fh5co-feature-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat aliquid placeat nobis veritatis neque earum possimus tempora sunt.</p>
-				<p class="text-center"><a href="#" class="btn btn-primary btn-sm">Read more</a></p>
+				<p class="text-center"><a href="detail" class="btn btn-primary btn-sm">Read more</a></p>
 			</div>
 			<div class="col-md-3 col-sm-6 fh5co-feature-item crsl-item">
 				<span class="fh5co-feature-icon fh5co-circle"><i class="ti-wallet"></i></span>
 				<h3 class="text-center fh5co-feature-title h4 text-uppercase">Increase Income</h3>
 				<p class="text-center fh5co-feature-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat aliquid placeat nobis veritatis neque earum possimus tempora sunt.</p>
-				<p class="text-center"><a href="#" class="btn btn-primary btn-sm">Read more</a></p>
+				<p class="text-center"><a href="detail" class="btn btn-primary btn-sm">Read more</a></p>
 			</div>
 		</div>
 	</div>
