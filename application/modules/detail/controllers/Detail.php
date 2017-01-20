@@ -4,7 +4,7 @@ class Detail extends MY_Controller {
 
 	public function index() {
 		$data['main_content'] = 'detail_view';
-		// $path = $_SERVER["REQUEST_URI"];
+		$data['product_name'] = $_GET["open"];
 		$crumbs = explode("/",$_SERVER["REQUEST_URI"]);
 		$breadcrumb = array();
 		foreach($crumbs as $crumb){

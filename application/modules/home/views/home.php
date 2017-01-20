@@ -11,30 +11,14 @@
 
 	<div class="row fh5co-feature-2 rfy-price crsl-items" data-navigation="rfy-price">
 		<div class="crsl-wrap">
-			<div class="col-md-3 col-sm-6 fh5co-feature-item crsl-item">
-				<span class="fh5co-feature-icon fh5co-circle"><i class="ti-gift"></i></span>
-				<h3 class="text-center fh5co-feature-title h4 text-uppercase">Free HTML5 Template</h3>
-				<p class="text-center fh5co-feature-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat aliquid placeat nobis veritatis neque earum possimus tempora sunt. </p>
-				<p class="text-center"><a href="detail" class="btn btn-primary btn-sm">Read more</a></p>
-			</div>
-			<div class="col-md-3 col-sm-6 fh5co-feature-item crsl-item">
-				<span class="fh5co-feature-icon fh5co-circle"><i class="ti-mobile"></i></span>
-				<h3 class="text-center fh5co-feature-title h4 text-uppercase">Mobile First</h3>
-				<p class="text-center fh5co-feature-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat aliquid placeat nobis veritatis neque earum possimus tempora sunt.</p>
-				<p class="text-center"><a href="detail" class="btn btn-primary btn-sm">Read more</a></p>
-			</div>
-			<div class="col-md-3 col-sm-6 fh5co-feature-item crsl-item">
-				<span class="fh5co-feature-icon fh5co-circle"><i class="ti-pie-chart"></i></span>
-				<h3 class="text-center fh5co-feature-title h4 text-uppercase">Analytics</h3>
-				<p class="text-center fh5co-feature-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat aliquid placeat nobis veritatis neque earum possimus tempora sunt.</p>
-				<p class="text-center"><a href="detail" class="btn btn-primary btn-sm">Read more</a></p>
-			</div>
-			<div class="col-md-3 col-sm-6 fh5co-feature-item crsl-item">
-				<span class="fh5co-feature-icon fh5co-circle"><i class="ti-wallet"></i></span>
-				<h3 class="text-center fh5co-feature-title h4 text-uppercase">Increase Income</h3>
-				<p class="text-center fh5co-feature-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat aliquid placeat nobis veritatis neque earum possimus tempora sunt.</p>
-				<p class="text-center"><a href="detail" class="btn btn-primary btn-sm">Read more</a></p>
-			</div>
+			<?php foreach ($rfy_price as $k => $v) { ?>
+				<div class="col-md-3 col-sm-6 fh5co-feature-item crsl-item">
+					<span class="fh5co-feature-icon fh5co-circle"><img style="width:86px; height:86px;" src="<?php echo $v['product_image_link']?>"/></span>
+					<h3 class="text-center fh5co-feature-title h4 text-uppercase"><?php echo $v["product_name"]; ?></h3>
+					<p class="text-center fh5co-feature-description"><?php echo $v["product_description"]; ?></p>
+					<p class="text-center"><a href="detail?open=<?php echo strtolower($v["product_name"]); ?>" class="btn btn-primary btn-sm">Read more</a></p>
+				</div>
+			<?php } ?>
 		</div>
 	</div>
 
@@ -56,42 +40,14 @@
 
 		<div class="row fh5co-feature-2 rfy-rate crsl-items" data-navigation="rfy-rate">
 			<div class="crsl-wrap">
-				<div class="col-md-3 col-sm-6 fh5co-feature-item crsl-item">
-					<span class="fh5co-feature-icon fh5co-circle"><i class="ti-gift"></i></span>
-					<h3 class="text-center fh5co-feature-title h4 text-uppercase">Free HTML5 Template</h3>
-					<p class="text-center fh5co-feature-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat aliquid placeat nobis veritatis neque earum possimus tempora sunt. </p>
-					<p class="text-center"><a href="#" class="btn btn-primary btn-sm">Read more</a></p>
-				</div>
-				<div class="col-md-3 col-sm-6 fh5co-feature-item crsl-item">
-					<span class="fh5co-feature-icon fh5co-circle"><i class="ti-mobile"></i></span>
-					<h3 class="text-center fh5co-feature-title h4 text-uppercase">Mobile First</h3>
-					<p class="text-center fh5co-feature-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat aliquid placeat nobis veritatis neque earum possimus tempora sunt.</p>
-					<p class="text-center"><a href="#" class="btn btn-primary btn-sm">Read more</a></p>
-				</div>
-				<div class="col-md-3 col-sm-6 fh5co-feature-item crsl-item">
-					<span class="fh5co-feature-icon fh5co-circle"><i class="ti-pie-chart"></i></span>
-					<h3 class="text-center fh5co-feature-title h4 text-uppercase">Analytics</h3>
-					<p class="text-center fh5co-feature-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat aliquid placeat nobis veritatis neque earum possimus tempora sunt.</p>
-					<p class="text-center"><a href="#" class="btn btn-primary btn-sm">Read more</a></p>
-				</div>
-				<div class="col-md-3 col-sm-6 fh5co-feature-item crsl-item">
-					<span class="fh5co-feature-icon fh5co-circle"><i class="ti-wallet"></i></span>
-					<h3 class="text-center fh5co-feature-title h4 text-uppercase">Increase Income</h3>
-					<p class="text-center fh5co-feature-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat aliquid placeat nobis veritatis neque earum possimus tempora sunt.</p>
-					<p class="text-center"><a href="#" class="btn btn-primary btn-sm">Read more</a></p>
-				</div>
-				<div class="col-md-3 col-sm-6 fh5co-feature-item crsl-item">
-					<span class="fh5co-feature-icon fh5co-circle"><i class="ti-heart"></i></span>
-					<h3 class="text-center fh5co-feature-title h4 text-uppercase">Increase Income</h3>
-					<p class="text-center fh5co-feature-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat aliquid placeat nobis veritatis neque earum possimus tempora sunt.</p>
-					<p class="text-center"><a href="#" class="btn btn-primary btn-sm">Read more</a></p>
-				</div>
-				<div class="col-md-3 col-sm-6 fh5co-feature-item crsl-item">
-					<span class="fh5co-feature-icon fh5co-circle"><i class="ti-eye"></i></span>
-					<h3 class="text-center fh5co-feature-title h4 text-uppercase">Increase Income</h3>
-					<p class="text-center fh5co-feature-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat aliquid placeat nobis veritatis neque earum possimus tempora sunt.</p>
-					<p class="text-center"><a href="#" class="btn btn-primary btn-sm">Read more</a></p>
-				</div>
+				<?php foreach ($rfy_price as $k => $v) { ?>
+					<div class="col-md-3 col-sm-6 fh5co-feature-item crsl-item">
+						<span class="fh5co-feature-icon fh5co-circle"><img style="width:86px; height:86px;" src="<?php echo $v['product_image_link']?>"/></span>
+						<h3 class="text-center fh5co-feature-title h4 text-uppercase"><?php echo $v["product_name"]; ?></h3>
+						<p class="text-center fh5co-feature-description"><?php echo $v["product_description"]; ?></p>
+						<p class="text-center"><a href="detail?open=<?php echo strtolower($v["product_name"]); ?>" class="btn btn-primary btn-sm">Read more</a></p>
+					</div>
+				<?php } ?>
 			</div>
 		</div>
 	</div>
@@ -190,3 +146,9 @@
 		</div>
 	</div>
 </section>
+
+<script type="text/javascript">
+	function Detail() {
+		//
+	}
+</script>

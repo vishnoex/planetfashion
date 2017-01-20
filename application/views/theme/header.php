@@ -4,7 +4,7 @@
 		<nav id="fh5co-menu-wrap" role="navigation">
 			<ul class="sf-menu" id="fh5co-primary-menu">
 				<li class="active">
-					<a href="#">Home</a>
+					<a href="<?php echo base_url(); ?>">Home</a>
 				</li>
 				<li>
 					<a href="#" class="fh5co-sub-ddown">Dropdown</a>
